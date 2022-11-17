@@ -1,5 +1,5 @@
 import os
-import sys
+
 from datetime import timedelta
 
 from dotenv import load_dotenv
@@ -18,7 +18,6 @@ ALLOWED_HOSTS = [
     '[::1]',
     'testserver',
     'web',
-    '*',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -78,17 +77,9 @@ DATABASES = {
         'USER': os.getenv('POSTGRES_USER'),
         'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
         'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
-        'TEST': {
-            'NAME': 'mytestdatabase',
-    },
+        'PORT': os.getenv('DB_PORT')
     }
 }
-
-# if 'test' in sys.argv or 'test\_coverage' in sys.argv:
-#     #Covers regular testing and django-coverage
-#     DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
-#     DATABASES['default']['NAME'] = ':memory:'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
