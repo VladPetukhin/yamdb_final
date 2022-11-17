@@ -90,4 +90,3 @@ class TokenRegistrationAPIView(APIView):
             user.save(update_fields=["is_active"])
             return Response(token, status=status.HTTP_200_OK)
 
-# flake8: noqa
