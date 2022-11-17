@@ -72,3 +72,6 @@ class Command(BaseCommand):
                         validated_data = validate(row)
                         model_object = key(**validated_data)
                         model_object.save()
+
+
+# flake8: noqa
