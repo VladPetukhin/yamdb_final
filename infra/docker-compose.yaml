@@ -9,7 +9,6 @@ services:
       - ./.env
 
   web:
-    #build: ../api_yamdb/  #image: needred/api_yamdb:latest
     image: vpetukhin/yamdb_final
     restart: always
     volumes:
