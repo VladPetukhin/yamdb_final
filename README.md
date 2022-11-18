@@ -56,5 +56,5 @@ docker-compose exec web python manage.py createsuperuser
 
 docker-compose down -v
 
-![пример параметра события](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg?event=push )
+![Push event](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg?event=push )
 
