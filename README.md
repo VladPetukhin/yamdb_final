@@ -55,6 +55,5 @@ docker-compose exec web python manage.py createsuperuser
 Остановить и удалить контейнеры
 
 docker-compose down -v
-
 ![Push event](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg?event=push )
 
