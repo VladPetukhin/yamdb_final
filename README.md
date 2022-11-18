@@ -56,5 +56,5 @@ docker-compose exec web python manage.py createsuperuser
 
 docker-compose down -v
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![пример параметра события](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push )
 
