@@ -28,7 +28,7 @@ handler.setFormatter(formatter)
 
 FILE_DICT = (
     {Category: 'api_yamdb/static/data/category.csv'},
-    {Genre: 'static/data/genre.csv'},
+    {Genre: 'api_yamdb/static/data/genre.csv'},
     {CustomUser: 'static/data/users.csv'},
     {Title: 'static/data/titles.csv'},
     {Review: 'static/data/review.csv'},
