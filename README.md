@@ -40,6 +40,7 @@ docker-compose exec web python manage.py migrate
 
 Шаг 6. Подгрузите статику
 
+
 docker-compose exec web python manage.py collectstatic
 
 Шаг 7. Заполнените базу тестовыми данными
