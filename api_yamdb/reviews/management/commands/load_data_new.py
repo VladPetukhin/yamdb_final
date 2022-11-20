@@ -28,12 +28,12 @@ handler.setFormatter(formatter)
 
 FILE_DICT = (
     {Category: 'data/category.csv'},
-    {Genre: 'static/data/genre.csv'},
-    {CustomUser: 'static/data/users.csv'},
-    {Title: 'static/data/titles.csv'},
-    {Review: 'static/data/review.csv'},
-    {Comment: 'static/data/comments.csv'},
-    {Genre: 'static/data/genre_title.csv'}
+    {Genre: 'data/genre.csv'},
+    {CustomUser: 'data/users.csv'},
+    {Title: 'data/titles.csv'},
+    {Review: 'data/review.csv'},
+    {Comment: 'data/comments.csv'},
+    {Genre: 'data/genre_title.csv'}
 )
 
 KEY_DICT = {
