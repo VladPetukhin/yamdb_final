@@ -27,7 +27,7 @@ handler.setFormatter(formatter)
 
 
 FILE_DICT = (
-    {Category: 'static/data/category.csv'},
+    {Category: 'data/category.csv'},
     {Genre: 'static/data/genre.csv'},
     {CustomUser: 'static/data/users.csv'},
     {Title: 'static/data/titles.csv'},
